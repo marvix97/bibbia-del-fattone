@@ -13,13 +13,9 @@ class DrawerUI extends StatelessWidget {
         children: <Widget>[
           DrawerHeader(
               child: Column(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                mainAxisAlignment: MainAxisAlignment.end,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
-                  IconButton(
-                    icon: Icon(Icons.arrow_back, color: yellowText, size: 32.0,),
-                    onPressed: () => Navigator.pop(context),
-                  ),
                   Text(common.title),
                 ],
               ),
