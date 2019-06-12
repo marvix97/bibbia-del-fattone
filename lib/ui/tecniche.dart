@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'colors.dart';
+import 'gen_articoli.dart';
 
 class Tecniche extends StatelessWidget {
   @override
@@ -19,6 +20,7 @@ class Tecniche extends StatelessWidget {
           ),
         ),
       ),
+      body: ArticleList(),
     );
   }
 }
